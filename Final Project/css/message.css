@@ -1,0 +1,19 @@
+html {
+	box-sizing: border-box;
+
+}
+body {
+	background: url(../images/hearts-background.jpg) no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+p {
+	font-family: 'Amatic SC', cursive;
+  	font-size: 1.5em;
+  	color: white;
+}
+
+.body {
+	text-indent: 1.5rem;
+}

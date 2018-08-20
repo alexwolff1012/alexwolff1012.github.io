@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports</title>
+	<link rel="stylesheet" href="css/sports.css">
+	<link rel="stylesheet" href="css/landingpage.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+</head>
+<body>
+<main>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/first-sox-together.jpg" alt="First Sox Game">
+	<p>Great night. We sat out in Right Field to start. I called Big Papi's home run and then we got to see a streaker right in front of us. We moved super close to the field, and then saw the people sitting behind us in Right Field on the Jumbotron.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/pats-dolphins.jpg" alt="Pats Dolphins">
+	<p>Bae's first ever Pats game. We went with big CJ and my pops. This was the day you famously declared yourself for JG over TB. Sacrelig but perhaps true. Since this day, you have made football a part of your life, and I appreciate it.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/pats-win-superbowl.jpg" alt="Champs">
+	<p>A night that will never be forgotten. What a moment to watch the Patriots comeback from 28-3 with all of our friends.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/Sox-Game-Wally.jpg" alt="Wally">
+	<p>Havas Media hooked up the seats, and you were down. A night of lots of laughs, awesome seats and a great win.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/Celtics-Bulls.jpg" alt="Celtics vs. Bulls">
+	<p>"Flirting with the enemy." My worst nightmare came true after I forced you to sport Bulls gear. The Bulls pulled the upset and I was miserable, but you were happy. It was an awesome experience to go to a playoff basketball game.</p>
+</div>
+</main>
+<footer>
+  <nav>
+    <ul>  
+    	<li><a href="index.html">Homepage</a></li>
+      <li><a href="weekend-getaways.html">Vacations</a></li>
+      <li><a href="boston.html">Boston</a></li>
+      <li><a href="holidays.html">Holidays</a></li> 
+      <li><a href="celebrations.html">Celebrations</a></li> 
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="concerts.html">Concerts</a></li>
+      <li><a href="secret page.html">Secret Page</a></li>
+    </ul>
+</nav>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+
+$('.image-div').click(function(){
+  $(this).addClass('open');
+});
+
+$('button').click(function(event){
+  event.stopPropagation();
+  $(this).parent().removeClass('open');
+});
+
+</script>
+</body>
+
+</html>

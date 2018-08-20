@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Celebrations</title>
+	<link rel="stylesheet" href="css/landingpage.css">
+	<link rel="stylesheet" href="css/celebrations.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+</head>
+<body>
+<main>
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/UJs-50th.jpg" alt="UJs 50th">
+	<p>What an amazing celebration! You only turn 50 once and to spend my Uncle's 50th with you a part of my family will be unforgettable. We went to the Norwood in NYC for the party and finished the night at the Gansevoort. Then did NYC brunch the next day before heading out with my parents.</p>
+
+
+</div>
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/dovias-90th-2.jpg" alt="Dovias 90th 2">
+	<p>This was not only special because your Grandma turned 90, but it was the first Lerrick fam trip I was a part of after subjecting you to several Wolff trips first. We had a lobster bake and I got to know your fam so much better. Then we finished it in NYC.</p>
+</div>
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/dads-59th.jpg" alt="Dads 59th">
+	<p>Great night out for my dads 59th. While it was not 60, it was a special night because it was the last time we will be together as a full fam with my mom, dad, Lee and my Grandpa.</p>
+</div>
+<div class="image-div">	
+	<button>&times;</button>
+	<img class="position-top" src="images/my-26th.jpg" alt="My 26th">
+	<p>The first birthday we spent together was a big success. We combined it with the Jewish holiday and had a great time at the Block's.</p>
+</div>
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/livs-24th.jpg" alt="Livs 24th">
+	<p>It made me so happy to be able to not only surprise the shit out of you, but also give you a solo birthday party. I know they are not something you typically have gotten, but something you deserve. I hope you are ready for many more.</p>
+</div>
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/bob-sappo-wedding-1.jpg" alt="Bob & Sappo's Wedding">
+	<p>Our first wedding together was a great one. We got to celebrate a weekend of two of our favorites. I look forward to many more.</p>
+</div>
+</main>
+<footer>
+  <nav>
+    <ul>  
+    	<li><a href="index.html">Homepage</a></li>
+      <li><a href="weekend-getaways.html">Vacations</a></li>
+      <li><a href="boston.html">Boston</a></li>
+      <li><a href="holidays.html">Holidays</a></li> 
+      <li><a href="celebrations.html">Celebrations</a></li> 
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="concerts.html">Concerts</a></li>
+      <li><a href="secret page.html">Secret Page</a></li>
+    </ul>
+</nav>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+
+$('.image-div').click(function(){
+  $(this).addClass('open');
+})
+
+$('button').click(function(event){
+  event.stopPropagation();
+  $(this).parent().removeClass('open');
+});
+
+</script>
+</body>
+
+</html>

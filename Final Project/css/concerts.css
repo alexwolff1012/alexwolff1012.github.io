@@ -1,0 +1,27 @@
+html {
+	box-sizing: border-box;
+
+}
+
+body {
+	background: url(../images/tlop-background-1.jpg) no-repeat;
+	background-size: cover;
+  min-height: 100vh;
+	
+}
+
+.open {
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    background: url(../images/tlop-background-1.jpg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: 100;
+  width: 100vh;
+  height: 100vh;
+
+}

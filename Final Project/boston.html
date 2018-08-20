@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boston</title>
+	<link rel="stylesheet" href="css/boston.css">
+	<link rel="stylesheet" href="css/landingpage.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+</head>
+
+<body>
+<main>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/kayak.jpg" alt="Kayak"></span>
+	<p>Amazing day on the Charles. We went with Rachel and David and Kayaked from Brighton to Kendall Square, stopping at the Hatch Shell and finishing the day with a drink.</p>
+</div>
+<div class='image-div'>	
+	<button>&times;</button>
+	<img src="images/envoy-boston.jpg" alt="Envoy">
+	<p>This was our first night on the best rooftop in Boston, and DAMN, look at that view.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/ice-skating.jpg" alt="Ice Skating">
+	<p>Never thought I would learn to Ice Skate. You never stop teaching me new things.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/first-night-dating.jpg" alt="First Night Dating">
+	<p>This was from the night I asked you to be my girlfriend. It was also the night we watched that girl faceplant in the street.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/paint-nite.jpg" alt="Paint Nite">
+	<p>I decided to skip the first NFL Sunday of 2016 to paint with Bae. I loved every minute of it.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/beer-olympics.jpg" alt="Beer Olympics">
+	<p>The Chosen People. Enough said.</p>
+</div>
+</main>
+<footer>
+  <nav>
+    <ul>  
+    	<li><a href="index.html">Homepage</a></li>
+      <li><a href="weekend-getaways.html">Vacations</a></li>
+      <li><a href="boston.html">Boston</a></li>
+      <li><a href="holidays.html">Holidays</a></li> 
+      <li><a href="celebrations.html">Celebrations</a></li> 
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="concerts.html">Concerts</a></li>
+      <li><a href="secret page.html">Secret Page</a></li>
+    </ul>
+</nav>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+
+$('.image-div').click(function(){
+  $(this).addClass('open');
+})
+
+$('button').click(function(event){
+  event.stopPropagation();
+  $(this).parent().removeClass('open');
+});
+
+
+</script>
+
+</body>
+
+</html>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concerts</title>
+	<link rel="stylesheet" href="css/concerts.css">
+	<link rel="stylesheet" href="css/landingpage.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+
+</head>
+<main>
+<body>
+
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/yeezy.jpg" alt="Yeezy">
+	<p>First concer together, and an epic one. We got to see Kanye up close an personal and spent the night singing along and having an incredible time. It was also the first weekend in the Brastow house. Time truly flies.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/country-fest.jpg" alt="Country Fest">
+	<p>You must be pretty special - you got me to go to a country concert. Hilarious night, Jon Caplan thought he lost his ticket, and it was the first time I met RK Goetjen.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/chainsmokers.jpg" alt="Chainsmokers">
+	<p>This was an awesome show. Twice. We first went at the HOB and I got to see your groovy EDM dance moves for the first time. Then we went to the Garden AZ, Adam, Jes & Morgan</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/zbb.jpg" alt="ZBB">
+	<p>Again you got me to go to a country show, but this is one I am still talking about today. I spent my entire time in Nashville referencing it, and I will be tagging along to see ZBB whenever he returns to Boston (I will flip the bill next time though).</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/kygo.jpg" alt="Kygo">
+	<p>Thank you for selling me on this show. Though it did not need much selling, I was blown away. We had so much fun and Kygo was so incredibly talented mixing his own music live, and playing multiple instruments.</p>
+</div>
+</main>
+<footer>
+  <nav>
+    <ul>  
+    	<li><a href="index.html">Homepage</a></li>
+      <li><a href="weekend-getaways.html">Vacations</a></li>
+      <li><a href="boston.html">Boston</a></li>
+      <li><a href="holidays.html">Holidays</a></li> 
+      <li><a href="celebrations.html">Celebrations</a></li> 
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="concerts.html">Concerts</a></li>
+      <li><a href="secret page.html">Secret Page</a></li>
+    </ul>
+</nav>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+
+$('.image-div').click(function(){
+  $(this).addClass('open');
+})
+
+$('button').click(function(event){
+  event.stopPropagation();
+  $(this).parent().removeClass('open');
+});
+
+</script>
+</body>
+
+</html>

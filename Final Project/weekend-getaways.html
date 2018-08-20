@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vacations</title>
+  <link rel="stylesheet" href="css/weekend-getaways.css">
+	<link rel="stylesheet" href="css/landingpage.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+</head>
+<body>
+<main>
+<div class="image-div">
+  <button>&times;</button>
+  <img src="images/ski-trip.jpg" alt="Ski Trip">
+  <p>There were some bumps and bruises, but without you, I would have never learned to ski. Now we have a lifelong activity we both love, and now can enjoy many winter ski trips ahead. This was an especially great one because not only did we share great company with the Davos, but I successfully ski'd all day for the first time. Something I will never forget.</p>
+</div>
+<div class="image-div">
+  <button>&times;</button>
+  <img src="images/newport-1.jpg" alt="Newport 1">
+  <p>Newport, our first official overnight trip together. I was a bit daring here, as not only did I play hooky from work (something you know I despise) only 6 weeks in to a new gig, but I also took Cory's car without telling my parents. All I wanted to do was spend time with you, something that has never and will never changed, but I couldn't help myself from breaking my own rules to do it. I loved every moment.</p>
+</div>
+<div class="image-div">
+  <button>&times;</button>
+  <img src="images/hamptons-1.jpg" alt="Hamptons 1">
+  <p>Oh the Hamptons. I surmise this trip will be the first of many (and it has), but this was extra special because not only did you spend quality time with my parents, but you got to meet John, Jen, Maya and Bash for the first time - four of the most important people in my life. What a wonderful weekend (even if we did not stomp grapes).</p>
+</div>
+<div class="image-div">
+  <button>&times;</button>
+  <img src="images/58-Sheridan.jpg" alt="58 Sheridan">
+  <p>This was a big one. My first trip to 58 Sheridan. After a year of committing your time to my family, and being around the people that mattered most to me ALL THE TIME, it was my turn. I got the chance to meet you amazing family, who I absolutely adore. It was so incredibly special to be around your upbringing and learn so much more about the woman I am in love with. Another trip that I will never forget.</p>
+</div>
+<div class="image-div">
+  <button>&times;</button>
+  <img src="images/snorkels 2.jpg" alt="Snorkel Bae">
+  <p>Cabo was like heaven. I could not have drawn up a more perfect week together. We started in Pitt for Adam's grad and then flew to Mexico. We spent the week relaxing, drinking and connecting even deeper. It was also the first major vacation I took with an S/O, and I wouldn't have rather it been anyone but you.</p>
+</div>
+</main>
+<footer>
+  <nav>
+    <ul>  
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="weekend-getaways.html">Vacations</a></li>
+      <li><a href="boston.html">Boston</a></li>
+      <li><a href="holidays.html">Holidays</a></li> 
+      <li><a href="celebrations.html">Celebrations</a></li> 
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="concerts.html">Concerts</a></li>
+      <li><a href="secret page.html">Secret Page</a></li>
+    </ul>
+</nav>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+  $('#menu-toggle').click(function(){
+
+    $('nav').toggleClass('open');
+  });
+
+$('.image-div').click(function(){
+  $(this).addClass('open');
+})
+
+$('button').click(function(event){
+  event.stopPropagation();
+  $(this).parent().removeClass('open');
+});
+
+</script>
+</body>
+
+</html>

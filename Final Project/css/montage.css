@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	border-box: inherit;
+
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(../images/homepage-2.jpg) no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+button {
+	margin-top: 1rem;
+	width: 15%;
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+	background: #f16272;
+  	color: white;
+  	cursor: pointer;
+  	font-family: 'Amatic SC', cursive;
+  	border: none;
+  	border-radius: 5px;
+  	font-size: 1.5rem;
+}
+
+button:hover {
+  background: #ee3e52;

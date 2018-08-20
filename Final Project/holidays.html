@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Holidays</title>
+	<link rel="stylesheet" href="css/holidays.css">
+	<link rel="stylesheet" href="css/landingpage.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+</head>
+<body>
+<main>
+<div class="image-div">	
+	<button>&times;</button>
+	<img src="images/july-4-hamptons.jpg" class="position-top" alt="July 4 Hamptons">
+	<p>Our first fourth together was a total blast. We had an awesome crew in a massive Hamptons house. While there was a tad bit of drama on the final night, this was one of the best group trips I have taken. </p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/july-4-ptown.jpg" alt="July 4 P Town">
+	<p>2018 4th was more low key than 2017, but no less fun. It was the first Lerrick fam day trip that I have been a part of and we had an awesome time eating, relaxing and people watching in P-Town (Willis did not).</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/halloween-16.jpg" alt="Halloween 2016">
+	<p>We were dressed to impress, but this wound up being a rough night. Instead of going into everything that went wrong, I will focus on the fact that our relationship became a lot stronger after this night.</p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/kpmg-holiday-17.jpg" class="position-top" alt="KPMG Holiday">
+	<p>KPMG holiday parties are so important to you, so they are to me too! This one I was even on time for ;) We had a great night with all your awesome work friends at the Park Plaza. </p>
+</div>
+<div class="image-div">
+	<button>&times;</button>
+	<img src="images/nye-1.jpg" alt="NYE 1">
+	<p>NYE 2018 was a blast. 2017 we spent skiing, but 2018 was the most epic, and perhaps the final, Brastow party. We made it in perfect timing from Chicago. Cory really outdid in himself with decorations and a bartender. Adam got a bag of ice!</p>
+</div>
+</main>
+<footer>
+  <nav>
+    <ul>  
+    	<li><a href="index.html">Homepage</a></li>
+      <li><a href="weekend-getaways.html">Vacations</a></li>
+      <li><a href="boston.html">Boston</a></li>
+      <li><a href="holidays.html">Holidays</a></li> 
+      <li><a href="celebrations.html">Celebrations</a></li> 
+      <li><a href="sports.html">Sports</a></li>
+      <li><a href="concerts.html">Concerts</a></li>
+      <li><a href="secret page.html">Secret Page</a></li>
+    </ul>
+</nav>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<script>
+
+$('.image-div').click(function(){
+  $(this).addClass('open');
+})
+
+$('button').click(function(event){
+  event.stopPropagation();
+  $(this).parent().removeClass('open');
+});
+
+</script>
+
+</body>
+
+</html>
